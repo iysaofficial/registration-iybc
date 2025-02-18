@@ -46,7 +46,7 @@ function IndonesiaOnline() {
     // Logika untuk menentukan harga berdasarkan kategori yang dipilih
     switch (value) {
       case "International Youth Business Competition - Online Competition":
-        setCategoryPrice("950000");
+        setCategoryPrice("Rp. 950.000");
         break;
       default:
         break;

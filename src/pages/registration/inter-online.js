@@ -46,13 +46,13 @@ export default function InternationalOnline() {
     // Logika untuk menentukan harga berdasarkan kategori yang dipilih
     switch (value) {
       case "International Youth Business Competition - Online Competition":
-        setCategoryPrice("75");
+        setCategoryPrice("$75 USD");
         break;
       case "International Youth Business Competition - Online Competition + Certificate and Medal (SOUTH EAST ASIA ONLY)":
-        setCategoryPrice("200");
+        setCategoryPrice("$200 USD");
         break;
       case "International Youth Business Competition - Online Competition + Certificate and Medal (Exclude SOUTH EAST ASIA)":
-        setCategoryPrice("250");
+        setCategoryPrice("$250 USD");
         break;
       default:
         setCategoryPrice("");
