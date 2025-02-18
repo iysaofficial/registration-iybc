@@ -45,14 +45,14 @@ export default function InternationalOnline() {
 
     // Logika untuk menentukan harga berdasarkan kategori yang dipilih
     switch (value) {
-      case "Online Competition":
-        setCategoryPrice("75 USD");
+      case "International Youth Business Competition - Online Competition":
+        setCategoryPrice("75");
         break;
-      case "Online Competition + Certificate and Medal (SOUTH EAST ASIA ONLY)":
-        setCategoryPrice("200 USD");
+      case "International Youth Business Competition - Online Competition + Certificate and Medal (SOUTH EAST ASIA ONLY)":
+        setCategoryPrice("200");
         break;
-      case "Online Competition + Certificate and Medal (Exclude SOUTH EAST ASIA)":
-        setCategoryPrice("250 USD");
+      case "International Youth Business Competition - Online Competition + Certificate and Medal (Exclude SOUTH EAST ASIA)":
+        setCategoryPrice("250");
         break;
       default:
         setCategoryPrice("");
@@ -249,14 +249,14 @@ export default function InternationalOnline() {
                     onChange={handleCategoryChange}
                   >
                     <option value="">--Choose Category Competition--</option>
-                    <option value="Online Competition">
+                    <option value="International Youth Business Competition - Online Competition">
                       Online Competition
                     </option>
-                    <option value="Online Competition + Certificate and Medal (SOUTH EAST ASIA ONLY)">
+                    <option value="International Youth Business Competition - Online Competition + Certificate and Medal (SOUTH EAST ASIA ONLY)">
                       Online Competition + Certificate and Medal (SOUTH EAST
                       ASIA)
                     </option>
-                    <option value="Online Competition + Certificate and Medal (Exclude SOUTH EAST ASIA)">
+                    <option value="International Youth Business Competition - Online Competition + Certificate and Medal (Exclude SOUTH EAST ASIA)">
                       Online Competition + Certificate and Medal (Exclude SOUTH
                       EAST ASIA)
                     </option>
@@ -580,15 +580,19 @@ export default function InternationalOnline() {
                   >
                     <option value="">--Pilih Kategori--</option>
                     <option value="Economic Research">Economic Research</option>
-                    <option value="Bank and Financial Management">Bank and Financial Management</option>
-                    <option value="Business Informatics">Business Informatics</option>
-                    <option value="Entrepreneurship">
-                      Entrepreneurship
+                    <option value="Bank and Financial Management">
+                      Bank and Financial Management
                     </option>
+                    <option value="Business Informatics">
+                      Business Informatics
+                    </option>
+                    <option value="Entrepreneurship">Entrepreneurship</option>
                     <option value="International Business">
                       International Business
                     </option>
-                    <option value="Management and Marketing">Management and Marketing</option>
+                    <option value="Management and Marketing">
+                      Management and Marketing
+                    </option>
                   </select>
                 </div>
                 <div class="input-box ">

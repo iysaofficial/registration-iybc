@@ -45,8 +45,8 @@ function IndonesiaOnline() {
 
     // Logika untuk menentukan harga berdasarkan kategori yang dipilih
     switch (value) {
-      case "Online Competition":
-        setCategoryPrice("RP 950.000");
+      case "International Youth Business Competition - Online Competition":
+        setCategoryPrice("950000");
         break;
       default:
         break;
@@ -236,7 +236,7 @@ function IndonesiaOnline() {
                     required
                   >
                     <option value="">--Pilih Kategori Kompetisi--</option>
-                    <option value="Online Competition">
+                    <option value="International Youth Business Competition - Online Competition">
                       Online Competition
                     </option>
                   </select>
