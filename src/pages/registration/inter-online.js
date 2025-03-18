@@ -60,7 +60,7 @@ export default function InternationalOnline() {
     }
   };
 
-  useEffect(() => {
+  useEffect(() => { 
     const termsAccepted = sessionStorage.getItem("termsAccepted");
 
     if (!termsAccepted) {
