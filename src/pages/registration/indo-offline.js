@@ -62,7 +62,7 @@ function IndonesiaOffline() {
     }
   }, [router]);
 
-  const scriptURL = "https://script.google.com/macros/s/AKfycbz-I9UltNIn8FdKEEvMLd67vBySo3F1xXxezEURCpnRfWgEj4hxNnZb8G6UatLAb2yG/exec";
+  const scriptURL = "";
 
   useEffect(() => {
     const form = document.forms["regist-form"];
@@ -675,7 +675,7 @@ function IndonesiaOffline() {
               {/* GENERAL INFORMATION END */}
 
               <div className="button">
-                <input type="submit" value="KIRIM" />
+                <input type="submit" value="CLOSE" />
               </div>
             </form>
             {/* Loader dan Status Message */}
