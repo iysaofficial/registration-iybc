@@ -689,7 +689,7 @@ function IndonesiaOnline() {
               {/* GENERAL INFORMATION END */}
 
               <div className="button">
-                <input type="submit" value="CLOSE" />
+                <input type="submit" value="kirim" />
               </div>
             </form>
 

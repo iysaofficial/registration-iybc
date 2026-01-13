@@ -675,7 +675,7 @@ function IndonesiaOffline() {
               {/* GENERAL INFORMATION END */}
 
               <div className="button">
-                <input type="submit" value="CLOSE" />
+                <input type="submit" value="kirim" />
               </div>
             </form>
             {/* Loader dan Status Message */}

@@ -22,12 +22,12 @@ export default function Home() {
             </div>
           </div>
           <div className="link-web mx-auto text-center">
-            <a className="btn btn-action text-center me-lg-5 m-2">
-              Close Regist{" "}
+            <a className="btn btn-action text-center me-lg-5 m-2" href="/registration/homeindo">
+              Indonesia Citizen{" "}
               <i className="fa-solid fa-earth-americas"></i>
             </a>
-            <a className="btn btn-action text-center me-lg-5 m-2">
-              Close Regist{" "}
+            <a className="btn btn-action text-center me-lg-5 m-2" href="/registration/homeinter">
+              International Citizen{" "}
               <i className="fa-solid fa-earth-americas"></i>
             </a>
             <br />
