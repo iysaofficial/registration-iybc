@@ -151,7 +151,7 @@ export default function InternationalOffline() {
             <br />
             <br />
             <h4>
-              HELLO IYBC 2025 PARTICIPANTS, Please consider the following
+              HELLO IYBC 2026 PARTICIPANTS, Please consider the following
               information before filling out the registration form :
             </h4>
             <br />
@@ -656,7 +656,7 @@ export default function InternationalOffline() {
 
                 <div class="input-box">
                   <label for="INFORMATION_RESOURCES" class="form-label">
-                    IYBC 2025 Competition Information Resources
+                    IYBC 2026 Competition Information Resources
                   </label>
                   <select
                     type="text"

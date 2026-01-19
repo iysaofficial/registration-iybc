@@ -7,12 +7,12 @@ export const indonesiaOnlineTerms = (
     {/* <h1 className="">Peserta Online:</h1> */}
     <ul>
       <li>
-        Peserta yang tidak mengumpulkan dokumen persyaratan (<em>extended abstract</em>, 
+        Peserta yang tidak mengumpulkan dokumen persyaratan (<em>Full Paper</em>, 
         <em> PowerPoint</em>) setelah dua kali pengingat akan dianggap mengundurkan diri 
         secara otomatis.
       </li>
       <li>
-        Peserta wajib menggunakan judul dan <em>extended abstract</em> yang sesuai dengan 
+        Peserta wajib menggunakan judul dan <em>Full Paper</em> yang sesuai dengan 
         kategori yang diikuti. (Peserta internasional, wajib menggunakan bahasa Inggris untuk 
         seluruh persyaratan dokumen yang dibutuhkan)
       </li>
@@ -43,18 +43,18 @@ export const indonesiaOfflineTerms = (
     </h5>
     <ul>
       <li>
-        Peserta yang tidak mengumpulkan berkas persyaratan (<em>extended abstract</em>,
+        Peserta yang tidak mengumpulkan berkas persyaratan (<em>Full Paper</em>,
         <em> poster</em>) setelah dua kali pengingat akan dianggap mengundurkan diri
         secara otomatis.
       </li>
       <li>
-        Peserta wajib menggunakan judul dan <em>extended abstract</em> yang sesuai dengan
+        Peserta wajib menggunakan judul dan <em>Full Paper</em> yang sesuai dengan
         kategori yang diikuti. (Peserta internasional, wajib menggunakan bahasa
         Inggris untuk seluruh <em>requirement</em>)
       </li>
       <li>
         Peserta diwajibkan untuk membuat poster berukuran A0, membawa produk,
-        dan juga <em>paper</em>/<em>extended abstract</em> (dalam bentuk <em>hard copy</em>) pada saat sesi
+        dan juga <em>paper</em>/<em>Full Paper</em> (dalam bentuk <em>hard copy</em>) pada saat sesi
         penjurian.
       </li>
       <li>
@@ -95,12 +95,12 @@ export const internationalOnlineTerms = (
   <>
     <h3 className="text-2xl">Online Participants:</h3>
     <li>
-      Participants who do not submit the required documents (extended abstract,
+      Participants who do not submit the required documents (Full Paper,
       PowerPoint) after two reminders will be considered to have resigned
       automatically.
     </li>
     <li>
-      Participants must use the title and extended abstract in accordance with
+      Participants must use the title and Full Paper in accordance with
       the category they are participating in. (International participants must
       use English for all required documents)
     </li>
@@ -115,7 +115,7 @@ export const internationalOfflineTerms = (
   <>
     <h3 className="text-2xl">Offline Participants:</h3>
     <li>
-      Participants who do not submit the required files (extended abstract,
+      Participants who do not submit the required files (Full Paper,
       poster) after two reminders will be considered automatically resigned.
     </li>
     <li>
@@ -125,7 +125,7 @@ export const internationalOfflineTerms = (
     </li>
     <li>
       Participants are required to make an A0-sized poster, bring the product
-      and also the paper/extended abstract (in hard copy) during the judging
+      and also the paper/Full Paper (in hard copy) during the judging
       session.
     </li>
     <li>

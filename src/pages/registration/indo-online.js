@@ -148,7 +148,7 @@ function IndonesiaOnline() {
             <br />
             <br />
             <h4>
-              HALLO PESERTA IYBC 2025, Mohon perhatikan informasi berikut ini
+              HALLO PESERTA IYBC 2026, Mohon perhatikan informasi berikut ini
               sebelum mengisi formulir pendaftaran :
             </h4>
             <br />
@@ -644,7 +644,7 @@ function IndonesiaOnline() {
                 </div>
                 <div className="input-box">
                   <label for="INFORMATION_RESOURCES" className="form-label">
-                    Sumber Informasi Kompetisi IYBC 2025
+                    Sumber Informasi Kompetisi IYBC 2026
                   </label>
                   <select
                     type="text"
