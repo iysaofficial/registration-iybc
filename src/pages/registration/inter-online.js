@@ -46,13 +46,13 @@ export default function InternationalOnline() {
     // Logika untuk menentukan harga berdasarkan kategori yang dipilih
     switch (value) {
       case "International Youth Business Competition - Online Competition":
-        setCategoryPrice("$75 USD");
+        setCategoryPrice("$105 USD");
         break;
       case "International Youth Business Competition - Online Competition + Certificate and Medal (SOUTH EAST ASIA ONLY)":
-        setCategoryPrice("$200 USD");
+        setCategoryPrice("$225 USD");
         break;
       case "International Youth Business Competition - Online Competition + Certificate and Medal (Exclude SOUTH EAST ASIA)":
-        setCategoryPrice("$250 USD");
+        setCategoryPrice("$275 USD");
         break;
       default:
         setCategoryPrice("");
@@ -69,8 +69,7 @@ export default function InternationalOnline() {
     }
   }, [router]);
 
-  const scriptURL =
-    "";
+  const scriptURL = "https://script.google.com/macros/s/AKfycbySr0yREes_VJ49wIbB8pmlMNznVw1-30kR5PjnOb05xt9bkKXxPHszV0mxoTHBWGJc/exec";
 
   useEffect(() => {
     const form = document.forms["regist-form"];

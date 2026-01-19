@@ -62,7 +62,7 @@ function IndonesiaOffline() {
     }
   }, [router]);
 
-  const scriptURL = "";
+  const scriptURL = "https://script.google.com/macros/s/AKfycbyP8E1rlv5uD-30lFRiug-OHA5RUdVegLzhr8PIW8V56mpuajmYpGEIUgRJQshJ7TbH/exec";
 
   useEffect(() => {
     const form = document.forms["regist-form"];
@@ -207,7 +207,7 @@ function IndonesiaOffline() {
               <h1 className="garis-bawah"></h1>
               <div className="user-details">
                 <div className="input-box">
-                  <label className="form-label" value="Peserta Indonesia">
+                  <label className="form-label" value="Indonesia">
                     Kategori Peserta
                   </label>
                   <input
@@ -216,7 +216,7 @@ function IndonesiaOffline() {
                     name="CATEGORY_PARTICIPANT"
                     className="form-control"
                     placeholder="Choose Categories Participant"
-                    value="PESERTA INDONESIA"
+                    value="INDONESIA"
                     readOnly
                   />
                 </div>

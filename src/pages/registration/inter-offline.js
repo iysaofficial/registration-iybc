@@ -64,7 +64,7 @@ export default function InternationalOffline() {
     }
   }, [router]);
 
-  const scriptURL = "";
+  const scriptURL = "https://script.google.com/macros/s/AKfycbzaOXtdtA72FmJ3916YAnsY9XnW8jQJssLQ20WOPaYKg29vvyyI6MzuBBXb4v9XtO4E/exec";
 
   useEffect(() => {
     const form = document.forms["regist-form"];

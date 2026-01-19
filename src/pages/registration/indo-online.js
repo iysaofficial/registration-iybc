@@ -46,7 +46,7 @@ function IndonesiaOnline() {
     // Logika untuk menentukan harga berdasarkan kategori yang dipilih
     switch (value) {
       case "International Youth Business Competition - Online Competition":
-        setCategoryPrice("Rp. 950.000");
+        setCategoryPrice("Rp. 1.150.000");
         break;
       default:
         break;
@@ -61,7 +61,7 @@ function IndonesiaOnline() {
     }
   }, [router]);
 
-  const scriptURL = "";
+  const scriptURL = "https://script.google.com/macros/s/AKfycbyv-0MxRsC_eM-6mrFHb8Oq2VvMybNJoHqkcm7rtKSXevpvYZx5NmhGBU2Mmqg66F4x/exec";
 
   useEffect(() => {
     const form = document.forms["regist-form"];
@@ -209,7 +209,7 @@ function IndonesiaOnline() {
               <h1 className="garis-bawah"></h1>
               <div className="user-details">
                 <div className="input-box">
-                  <label className="form-label" value="Peserta Indonesia">
+                  <label className="form-label" value="Indonesia">
                     Kategori Peserta
                   </label>
                   <input
@@ -218,7 +218,7 @@ function IndonesiaOnline() {
                     name="CATEGORY_PARTICIPANT"
                     className="form-control"
                     placeholder="Choose Categories Participant"
-                    value="PESERTA INDONESIA"
+                    value="INDONESIA"
                     readOnly
                   />
                 </div>
