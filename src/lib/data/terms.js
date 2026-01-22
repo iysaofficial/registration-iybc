@@ -100,7 +100,8 @@ export const internationalOfflineTerms = (
     </li>
     <li>
       Participants who do not submit the required files (Full Paper,
-      poster) after two reminders will be considered automatically resigned.
+      poster) after two reminders will be considered 
+      automatically resigned.
     </li>
     <li>
       Participants must use titles and extended abstracts that are in accordance
