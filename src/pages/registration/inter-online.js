@@ -461,7 +461,7 @@ export default function InternationalOnline() {
                     required
                   >
                     <option value="">--Choose Your Grade--</option>
-                    <option value="Elementery">Elementery</option>
+                    <option value="Elementary">Elementary</option>
                     <option value="Junior High School">
                       Junior High School
                     </option>

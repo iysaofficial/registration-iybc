@@ -12,36 +12,36 @@ function ThankYouIndo() {
   return (
     <section className="thankyou">
       <div>
-        <h1>Terima Kasih telah mendaftar!</h1>
-        <p>Kami menghargai partisipasi Anda dan menantikan keterlibatan Anda.</p>
+        <h1>Thank You for Registering!</h1>
+        <p>We appreciate your participation and look forward to your involvement.</p>
 
         <table className="thankyou-table">
           <tbody>
             <tr>
-              <td><strong>Anggota Tim</strong></td>
+              <td><strong>Team Member</strong></td>
               <td>{namaLengkap}</td>
             </tr>
             <tr>
-              <td><strong>Nama Sekolah</strong></td>
+              <td><strong>School Name</strong></td>
               <td>{namasekolah}</td>
             </tr>
             <tr>
-              <td><strong>Judul Proyek</strong></td>
+              <td><strong>Project Title</strong></td>
               <td>{projectTitle}</td>
             </tr>
             <tr>
-              <td><strong>Kategori Kompetisi</strong></td>
+              <td><strong>Competition Category</strong></td>
               <td>{category}</td>
             </tr>
           </tbody>
         </table>
 
         <p>
-          <strong>*Jika data muncul, tangkap layar halaman ini sebagai bukti pendaftaran berhasil</strong>
+          <strong>*If data appears, take a screenshot of this page as proof of successful registration</strong>
         </p>
 
         <a href="/" className="btn btn-action">
-          Kembali ke menu pendaftaran
+          Back to registration menu
         </a>
       </div>
     </section>

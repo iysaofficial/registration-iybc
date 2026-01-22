@@ -454,7 +454,7 @@ export default function InternationalOffline() {
                     required
                   >
                     <option value="">--Choose Your Grade--</option>
-                    <option value="Elementery">Elementery</option>
+                    <option value="Elementary">Elementary</option>
                     <option value="Junior High School">
                       Junior High School
                     </option>
@@ -571,7 +571,7 @@ export default function InternationalOffline() {
                     placeholder="--Choose-- "
                     required
                   >
-                    <option value="">--Pilih Kategori--</option>
+                    <option value="">--Choose Category--</option>
                     <option value="Economic Research">Economic Research</option>
                     <option value="Bank and Financial Management">
                       Bank and Financial Management

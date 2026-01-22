@@ -20,7 +20,7 @@ function HomeIndo() {
       setShowModal(false);
       window.location.href = redirectLink;
     } else {
-      alert("Harap setujui Syarat & Ketentuan untuk melanjutkan.");
+      alert("Please agree to the Terms & Conditions to proceed.");
     }
   };
   
@@ -38,10 +38,10 @@ function HomeIndo() {
           <div className="wrapper">
             <div className="text-center">
               <h1 className="mx-auto text-sm md:text-lg lg:text-5xl">
-                FORMULIR REGISTRASI
+                REGISTRATION FORM
               </h1>
               <h3 className="mx-auto mt-5 mb-2 text-sm md:text-lg lg:text-2xl">
-                Pilih Kategori Kompetisi untuk Registrasi IYBC 2026
+                Choose Categories Participant for Registration IYBC 2026
               </h3>
             </div>
           </div>
@@ -66,7 +66,7 @@ function HomeIndo() {
       {showModal && (
         <div className="modal-overlay">
           <div className="modal-content">
-            <h2 className="text-4xl">Syarat & Ketentuan</h2>
+            <h2 className="text-4xl">Terms & Conditions</h2>
             <div>{termsContent}</div> {/* Isi dinamis */}
             <div className="checkbox mt-2">
               <input
@@ -75,17 +75,17 @@ function HomeIndo() {
                 checked={termsAccepted}
                 onChange={(e) => setTermsAccepted(e.target.checked)}
               />
-              <label htmlFor="terms"> Saya menyetujui Syarat & Ketentuan di atas</label>
+              <label htmlFor="terms"> I agree to the Terms & Conditions above</label>
             </div>
             <div className="modal-actions">
               <button
                 className="btn btn-secondary"
                 onClick={() => setShowModal(false)}
               >
-                Kembali
+                Cancel
               </button>
               <button className="btn btn-primary" onClick={handleAccept}>
-                Terima & Proses
+                Accept & Process
               </button>
             </div>
           </div>
