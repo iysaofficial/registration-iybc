@@ -299,8 +299,8 @@ export default function InternationalOffline() {
                       the following format:
                     </p>
                     <p>Note: maximum 5 members + 1 team leader</p>
-                    <h6>Kamal Putra</h6>
-                    <h6>Ranu Ramadhan</h6>
+                    <h6>Kamal Putra Simatupang</h6>
+                    <h6>Nur Alif Rajaloa Hidayat</h6>
                     <h6>Irsyad Zaidan</h6>
                   </label>
                   <textarea
@@ -648,13 +648,13 @@ export default function InternationalOffline() {
                     <option value="">
                       --Select the Source of Information--
                     </option>
+                    <option value="IYBC Website">IYBC Website</option>
+                    <option value="IYSA Website">IYSA Website</option>
                     <option value="IYSA Instagram">IYSA Instagram</option>
                     <option value="IYBC Instagram">IYBC Instagram</option>
                     <option value="Supervisor/School">Supervisor/School</option>
                     <option value="IYSA FaceBook">IYSA FaceBook</option>
                     <option value="IYSA Linkedin">IYSA Linkedin</option>
-                    <option value="IYSA Website">IYSA Website</option>
-                    <option value="IYBC Website">IYBC Website</option>
                     <option value="IYSA Email">IYSA Email</option>
                     <option value="IYBC Email">IYBC Email</option>
                     <option value="Previous Event">Previous Event</option>
